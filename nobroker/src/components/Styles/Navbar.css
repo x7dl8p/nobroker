@@ -1,0 +1,121 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem 2rem;
+  background: #ffffff;
+  height: 4rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #f0f0f0;
+  position: sticky;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.logo-icon {
+  font-size: 1.2rem;
+  color: #ffd700;
+}
+
+.logo-text {
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2.5rem;
+}
+
+.nav-btn, .dropdown-btn {
+  text-decoration: none;
+  color: #484848;
+  font-size: 0.9rem;
+  padding: 0.2rem;
+  transition: background-color 0.2s;
+}
+
+.nav-btn:hover, .dropdown-btn:hover {
+  background-color: #d9d3d3;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-btn::after {
+  content: "▼";
+  font-size: 0.8em;
+  margin-left: 4px;
+}
+
+.favorites {
+  font-size: 1rem;
+  cursor: pointer;
+  color: #ff5555;
+}
+
+.nav-btn[href="/post-property"] {
+  background-color: #00b7a7;
+  color: white;
+  padding: 0.2rem 0.8rem;
+  font-weight: 500;
+}
+
+.nav-btn[href="/post-property"]:hover {
+  background-color: #009e91;
+}
+
+.menu-btn {
+  display: none;
+  background: none;
+  border: 1px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.3rem 1rem;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .navbar-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-items.active {
+    display: flex;
+  }
+
+  .nav-btn, .dropdown-btn {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+  }
+}
