@@ -40,7 +40,7 @@ const Card = () => {
       {data.map((item, index) => (
         <div className="property-card" key={index}>
           <div className="card-header">
-            <h2>{item.title}</h2>
+            <h2>{item.title.toUpperCase()}</h2>
             <div className="location">
               <span>{item.location}</span>
               <a href="#" className="explore-link">{item.exploreLink}</a>
