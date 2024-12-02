@@ -1,0 +1,66 @@
+/* Overall container styles */
+.related-links-container {
+    position: sticky;
+    top: 0;
+    padding: 1.5rem;
+    min-height: 20rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Card container styles */
+  .card {
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 10rem;
+    padding: 1rem;
+    align-self: flex-end;
+  }
+  
+  /* Title styles */
+  .gradient-title {
+    background: none;
+    color: red;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+  }
+  
+  /* List and link styles */
+  .links-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .link-item {
+    margin-bottom: 1rem;
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  .icon {
+    width: 2rem;
+    height: 2rem;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+
+  .icom
+  
+  .link-text {
+    font-size: 1rem;
+    color: #000000;
+    padding: 0.25rem;
+  }  

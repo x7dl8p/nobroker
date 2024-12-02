@@ -8,7 +8,7 @@ const Card = () => {
       location: 'Green Glen Layout, ICICI Bank',
       exploreLink: 'Explore Nearby',
       image: 'https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      price: '₹6.66 Lacs',
+      price: '₹6.66',
       deposit: '₹66.6 Lacs',
       area: '7,400 sqft',
       type: 'Office Space',
@@ -18,7 +18,7 @@ const Card = () => {
       location: 'Whitefield Main Road, Infosys',
       exploreLink: 'Explore Nearby',
       image: 'https://images.pexels.com/photos/186078/pexels-photo-186078.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      price: '₹25,000/month',
+      price: '₹25,00',
       deposit: '₹50,000',
       area: '1,200 sqft',
       type: 'Apartment',
@@ -28,8 +28,8 @@ const Card = () => {
       location: 'MG Road, Bangalore',
       exploreLink: 'Explore Nearby',
       image: 'https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      price: '₹1,50,00,000',
-      deposit: '₹30,00,000',
+      price: '₹1500',
+      deposit: '₹30,00',
       area: '5,000 sqft',
       type: 'Commercial',
     }
@@ -49,7 +49,7 @@ const Card = () => {
 
           <div className="price-details">
             <div className="price-item">
-              <h3>{item.price}</h3>
+              <h3>{item.price}/M</h3>
               <p>Rent (Non-Negotiable)</p>
             </div>
             <div className="price-item">

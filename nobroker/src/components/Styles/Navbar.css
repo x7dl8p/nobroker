@@ -28,8 +28,9 @@
 
 .logo-text {
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #333;
+  text-decoration: none;
 }
 
 .navbar-items {
@@ -64,18 +65,18 @@
 .favorites {
   font-size: 1rem;
   cursor: pointer;
-  color: #ff5555;
+  color: #ff0000;
 }
 
 .nav-btn[href="/post-property"] {
-  background-color: #00b7a7;
+  background-color: #ff0000;
   color: white;
   padding: 0.2rem 0.8rem;
   font-weight: 500;
 }
 
 .nav-btn[href="/post-property"]:hover {
-  background-color: #009e91;
+  background-color: #ff0000;
 }
 
 .menu-btn {
